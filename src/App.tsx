@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 
 gsap.registerPlugin(useGSAP, Draggable, MotionPathPlugin);
